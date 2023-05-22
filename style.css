@@ -1,0 +1,330 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+overflow-x: hidden;
+} 
+.index{
+   /* background: url(images/prairie-woman-at-sunset.jpg); */
+   width: 100%;
+   color: white;
+   font-weight: 900;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   animation: slide 40s infinite;
+}
+
+@keyframes slide{
+   0%{
+      background-image: url(images/masai.jpg);
+   }
+   20%{
+      background-image: url(images/prairie-woman-at-sunset.jpg);
+   }
+   20.01%{
+      background-image: url(images/beautiful-beach-in-portugal.jpg);
+   }
+   40%{
+      background-image: url(images/pexels-tatiana-syrikova-3932951.jpg);
+   }
+   40.01%{
+      background-image: url(images/waterfall-by-ruins.jpg);
+   }
+   60%{
+      background-image: url(images/pexels-marcel-kodama-3632689.jpg);
+   }
+   60.01%{
+      background-image: url(images/wp11937028-tree-moon-wallpapers.jpg);
+   }
+   80%{
+      background-image: url(images/pexels-jill-wellington-39853.jpg);
+   }
+   80.01%{
+      background-image: url(images/hiking-the-ridge.jpg);
+   }
+   100%{
+      background-image: url(images/masai.jpg);
+   }
+}
+.header{
+   position: fixed;
+   display: flex;
+   flex-flow: nowrap;
+   background-color: rgb(168, 244, 176);
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 40px;
+   color: beige;
+   justify-content: space-between;
+   border-radius: 7px;
+}
+.nav{
+   text-decoration: none;
+   color: black;
+   /* margin-left: 50px; */
+   margin-right: 40px;
+}
+.nav:hover{
+   font-size: larger;
+   width: 100px;
+   height: 30px;
+   box-shadow: -3px -3px 7px rgba(75, 81, 81, .288), 3px 3px 7px rgba(75, 81, 81, .288);
+}
+.logo-txt{
+   display: flex;
+   color: black;
+}
+.nav-bar{
+   margin-right: 170px;
+}
+button{
+   border-radius: 7px;
+   width: 200px;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 120px;
+   background-color: rgb(168, 244, 176);
+   border: none;
+   box-shadow: -7px -7px 11px rgba(9, 9, 9, .288), 7px -7px 11px rgba(9, 9, 9, .288),
+   -7px 7px 11px rgba(9, 9, 9, .288),7px 7px 11px rgba(9, 9, 9, .288);
+}
+.content{
+   position: relative;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.content h2 span{
+   color: rgb(168, 244, 176);
+   font-size: 1.2em;
+   font-weight: 900;
+}
+.circle{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #5ae94d;
+   clip-path: circle(500px at right 800px);
+}
+
+.footer{
+   display: flex;
+   height: 100%;
+}
+button{
+   border-radius: 7px;
+   width: 200px;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 120px;
+   background-color: #5ae94d;
+   border: none;
+   box-shadow: -7px -7px 11px rgba(9, 9, 9, .288), 7px -7px 11px rgba(9, 9, 9, .288),
+   -7px 7px 11px rgba(9, 9, 9, .288),7px 7px 11px rgba(9, 9, 9, .288);
+}
+.images{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+.para{
+   margin-left: 50px;
+}
+span{
+   color: #5ae94d;
+}
+.context{
+   display: flex;
+}
+#paris{
+   margin-left: 50px;
+}
+/*Log in form and sign up*/
+.container{
+   display: flex;
+   height: 500px;
+   width: 800px;
+   border: 1px solid black;
+   margin: auto;
+   margin-top: 50px;
+}
+.form{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   align-items: center;
+   background-color: whitesmoke;
+}
+.form h2{
+   font-size: 3rem;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin: 40px;
+}
+form input{
+   padding: 12px;
+   width: 250px;
+   height: 30px;
+   margin: 15px;
+   border-radius: 20px;
+   border: none;
+   outline: none;
+   background: none;
+   padding: 0 5px;
+   border-bottom: 2px solid #adadad;
+   font-weight: bold;
+}
+.submit{
+   background-color: #5ae94d;
+   text-align: center;
+   color: #fff;
+}
+#submit{
+   margin-left: 70px;
+   width: 100px;
+   text-align: center;
+   color: #fff;
+   background-color: #5ae94d;
+}
+.submit:hover{
+   background-color: #adadad;
+}
+
+#submit:hover{
+   background-color: #adadad;
+}
+form .form-txt{
+   display: flex;
+   margin-left: 70px;
+   margin-bottom: 10px;
+   font-size: 25px;
+   margin-top: 30px;
+}
+.cr{
+   margin-left: 70px;
+}
+form a{
+   text-decoration: none;
+   color: black;
+   margin-left: 70px;
+}
+#sign input{
+   margin-bottom: 5px;
+}
+.side{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   background-color: red;
+}
+.side img{
+   width: 450px;
+   height: 499px;
+}
+.title h2{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+.body-home{
+   min-height: 100vh;
+}
+footer{
+   position: relative;
+   width: 100%;
+   background: #5ae94d;
+   min-height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ footer .social-icon,
+ footer .menu{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+ }
+ footer .social-icon li,
+ footer .menu li{
+   list-style: none;
+ }
+ footer .social-icon li a{
+   font-size: 2em;
+   color: black;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+ }
+ footer .social-icon li a:hover{
+   transform: translateY(-10px);
+ }
+ footer .menu li a{
+   font-size: 2em;
+   color: black;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+   text-decoration: none;
+   opacity: 0.75;
+ }
+ footer .menu li a:hover{
+   opacity: 1;
+ }
+ footer p{
+   color: #000;
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   font-size: 1.1em;
+ }
+ footer .wave{
+   position: absolute;
+   top: -100px;
+   left: 0;
+   width: 100%;
+   height: 100px;
+   background: #f00 ur;
+ }
+ .dest{
+   margin-left: 8px;
+   margin-bottom: 15px;
+ }
+ figure img{
+   border-radius: 10px;
+   box-shadow: -7px -7px 11px rgba(9, 9, 9, .288), 7px -7px 11px rgba(9, 9, 9, .288),
+   -7px 7px 11px rgba(9, 9, 9, .288),7px 7px 11px rgba(9, 9, 9, .288);
+ }
+ figcaption{
+   margin-left: 30px;
+   margin-bottom: 15px;
+ }
+ figcaption a{
+   text-decoration: underline double #5ae94d;
+   color: black;
+ }
+ figcaption a:hover{
+   color: #5fe94d;
+ }
+ .about-body{
+   background: url(images/hg.jfif) ;
+   color: #000;
+ }
+ .content p{
+   margin-top: 10px;
+   margin-left: 85px;
+   font-size: 1.2em;
+ }
+.one{
+   color: #000;
+}
+.about-body footer{
+   margin-top: 40px;
+}
